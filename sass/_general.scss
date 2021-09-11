@@ -1,0 +1,37 @@
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  transition: all .3s linear;
+  font-family: Omnes-Regular, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+@font-face {
+  src: url("../fonts/Omnes/Omnes-Regular.otf");
+  font-family: Omnes-Regular;
+}
+
+@font-face {
+  src: url("../fonts/Omnes/Omnes-Bold.otf");
+  font-family: Omnes-Bold;
+}
+@font-face {
+  src: url("../fonts/Omnes/OmnesMedium.otf");
+  font-family: Omnes-Medium;
+}
+@font-face {
+  src: url("../fonts/Omnes/OmnesBlack.otf");
+  font-family: Omnes-Black;
+}
+@font-face {
+  src: url("../fonts/soupofjustice.ttf");
+  font-family: Soupo;
+}
+
+
